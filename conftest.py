@@ -1,5 +1,6 @@
 from selene import browser
 import pytest
+
 @pytest.fixture
 def open_and_close_browser():
     browser.config.window_height = 999
